@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+p span{
+  color: red;
+}
+
+
+table{
+    border: 2px solid black;
+    background-color: lightcyan;
+    border-collapse: collapse;
+  margin: auto;
+
+  }
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    height: 30px;
+    width: 50px;
+  }
+
+td:hover{
+  cursor: pointer;
+}
+
+button:hover{
+  cursor: pointer;
+}
+img:hover{
+  cursor: pointer;
+}
+  .hidden{
+    color: lightcyan;
+  }
+

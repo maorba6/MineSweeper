@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Sweeper</title>
+</head>
+
+<body onload="init()">
+    <h1>Mine Sweeper </h1>
+    <p onclick="init()" class="smiley">
+        <img src="img/smily.jpg" alt="">
+    </p>
+    <p class="life">Lives : <span>💖 💖 💖 </span></p>
+    <p class="best">Best Score :</p>
+    <div class="timer"> Timer : </div>
+    <button class="safe" onclick="safeClick()">Safe Click X3</button>
+    <button onclick="easy()">Begginer</button>
+    <button onclick="medium()">Medium</button>
+    <button onclick="hard()">Expert !</button>
+    <button onclick="init()">Restart</button>
+
+    <tbody>
+
+        <table class="table">
+
+        </table>
+
+
+    </tbody>
+
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/utils.js"></script>
+</body>
+
+</html>
